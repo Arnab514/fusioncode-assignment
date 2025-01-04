@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import ShippingBanner from './ShippingBanner'
 import Navbar from './Navbar'
+import HeroBanner from './HeroBanner'
+import Logo from './Logo'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +14,8 @@ function App() {
     <>
       <ShippingBanner/>
       <Navbar/>
+      {/* <Logo/> */}
+      <HeroBanner/>
     </>
   )
 }
